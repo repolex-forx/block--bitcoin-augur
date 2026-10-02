@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "bitcoin-augur",
+  "versions": [
+    {
+      "commit": "bc9db4af76c4808f7b852efc91098593bdc728c7",
+      "tag": "main",
+      "parsed_at": "2026-10-02T10:45:18.298378+00:00"
+    }
+  ]
+}
