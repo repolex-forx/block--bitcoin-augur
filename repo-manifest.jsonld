@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/bitcoin-augur/commit/bc9db4af76c4808f7b852efc91098593bdc728c7",
       "git:hexsha": "bc9db4af76c4808f7b852efc91098593bdc728c7",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "augur-0.3.1"
     },
     {
