@@ -1,0 +1,17 @@
+[2026-11-23T06:15:14Z] === ENRICH ITERATION 2 START | repo=block/bitcoin-augur sha=bc9db4af ===
+[2026-11-23T06:15:14Z] [iter=2] PHASE START: enrich repo=block/bitcoin-augur sha=bc9db4af runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/bc9db4af-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/bc9db4af76c4808f7b852efc91098593bdc728c7.nq.gz
+[2026-11-23T06:15:14Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-23T06:15:17Z] [iter=2] AST store loaded triples=131422 load_secs=2 mem_mb=276 MB
+[2026-11-23T06:15:17Z] [iter=2] Step 2: Finding LSP targets mem_mb=276 MB
+[2026-11-23T06:15:17Z] [iter=2] LSP targets found call_sites=1211 imports=74 extends=0 implements=0 secs=0
+[2026-11-23T06:15:17Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=276 MB
+[2026-11-23T06:15:18Z] [iter=2] Position index built positions=7430 nodes_with_types=9237 secs=1 mem_mb=276 MB
+[2026-11-23T06:15:18Z] [iter=2] Step 3: Starting LSP resolution mem_mb=276 MB already_completed_types=[] already_completed_files=0
+[2026-11-23T06:15:18Z] [iter=2] Resolving target type target_type=call_site count=1211
+[2026-11-23T06:15:45Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=17 resolved=380 errors=0 current=bin/gradle
+[2026-11-23T06:15:46Z] [iter=2] Target type resolved target_type=call_site resolved=380 errors=0 secs=28 mem_mb=276 MB
+[2026-11-23T06:15:46Z] [iter=2] Resolving target type target_type=import_statement count=74
+[2026-11-23T06:15:56Z] [iter=2] Target type resolved target_type=import_statement resolved=0 errors=0 secs=10 mem_mb=276 MB
+[2026-11-23T06:16:17Z] [iter=2] Step 5: Writing final enrichment file triples=7264
+[2026-11-23T06:16:17Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/bc9db4af76c4808f7b852efc91098593bdc728c7.nq.gz size_kb=118
+[2026-11-23T06:16:17Z] [iter=2] PHASE END: enrich elapsed_s=63 elapsed_min=1.0 total_triples=7264
